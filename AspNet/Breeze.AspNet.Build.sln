@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{870357DE-CA2C-4B2E-9AF2-3B822E26D57B}"
 	ProjectSection(SolutionItems) = preProject
@@ -21,6 +21,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breeze.ContextProvider.NH", "Breeze.ContextProvider.NH\Breeze.ContextProvider.NH.csproj", "{15246B9C-5558-4BCE-894F-52C4F785BBCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breeze.WebApi2", "Breeze.WebApi2\Breeze.WebApi2.csproj", "{AB54C69A-14C0-4E60-9DD4-CBEA3685C7DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breeze.ContextProvider.EFC", "Breeze.ContextProvider.EFC\Breeze.ContextProvider.EFC.csproj", "{8F969586-3D37-459D-AE22-3C1856897308}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,9 +55,18 @@ Global
 		{AB54C69A-14C0-4E60-9DD4-CBEA3685C7DD}.OData-debug|Any CPU.Build.0 = OData-debug|Any CPU
 		{AB54C69A-14C0-4E60-9DD4-CBEA3685C7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB54C69A-14C0-4E60-9DD4-CBEA3685C7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F969586-3D37-459D-AE22-3C1856897308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F969586-3D37-459D-AE22-3C1856897308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F969586-3D37-459D-AE22-3C1856897308}.OData-debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8F969586-3D37-459D-AE22-3C1856897308}.OData-debug|Any CPU.Build.0 = Release|Any CPU
+		{8F969586-3D37-459D-AE22-3C1856897308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F969586-3D37-459D-AE22-3C1856897308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83A36EFB-6DF0-4D61-BB0B-4EA6963F86EF}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Breeze.vsmdi
